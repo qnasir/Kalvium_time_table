@@ -1,7 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display:wght@500&family=Poppins&family=Roboto:ital,wght@0,300;0,700;1,500&display=swap');
 
-table,th,td{
+/* Styling Body */
+
+body{
+    background-color: #FBE4E4;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling Header */
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.main-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+}
+.main-2{
+    display: flex;
+    align-items: center;
+    
+} 
+
+/* Styling Images */
+
+.main>img{
+    width: 200px;
+}
+.logo{
+    height: 20px;
+}
+#pr{
+    width: 25px;
+    height: 25px;
+}
+
+/* Styling Texts */
+
+h6{
+    margin: 0 150px;
+}
+p{
+    font-weight: bold;
+    color: #D63231;
+    font-size: large;
+}
+
+/* Styling Table */
+
+table{
     text-align: center;
     border-collapse: collapse;
+    background-color: white;
+    margin: auto;
+    border-bottom: 2px solid #D63231;
+    box-shadow: 1px 1px 5px black;
 }
 
 th{
@@ -15,10 +76,9 @@ td,tr,th{
 
 tr:nth-child(even){
     background-color: #F3F3F3;
-}
-p{
-    font-weight: bold;
-    color: #D63231;
-    font-size: large;
+    border: 1px solid lightgrey;
 }
 
+.lunch{
+    font-size: x-large;
+}
